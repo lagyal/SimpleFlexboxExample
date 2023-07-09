@@ -11,11 +11,6 @@ body {
     font-size: 45px;
 }
 
-.box-image {
-    height: 200px;
-    width: 100%;
-}
-
 .banner-image {
     width: 100%;
     min-height: fit-content;
@@ -25,18 +20,37 @@ body {
     position: relative;
 }
 
-.banner-text{
+.banner-text-block {
     position: absolute;
+    width: 100%;
     top:40%;
 }
 
-.block-1 {
+.banner-text{
+    color: aliceblue;
+    text-shadow: 5px 5px 10px #000;
+    text-align: center;
+}
+
+.box-image {
+    height: 200px;
+    width: 100%;
+}
+
+.block {
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.block-1 > div {
+.box {
     text-align: center;
+    margin: 0 auto;
+}
+
+.box-text {
+    font-size: 28px;
 }
